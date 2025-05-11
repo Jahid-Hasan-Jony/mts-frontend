@@ -15,7 +15,6 @@ import UserDetails from "../layouts/DashBoard/userDetails/UserDetails";
 import MainLayOut from "../MainLayOut";
 import LoginForm from "../pages/Auth/LoginForm";
 import RegisterForm from "../pages/Auth/RegisterForm";
-import RegisterView from "../pages/auth/RegisterView";
 import RoleProtectedRoute from "../pages/Auth/RoleProtectedRoute";
 import BestContributors from "../pages/bestContributor/BestContributors";
 import CelebrationCurtain from "../pages/CelebrationCurtain/CelebrationCurtain";
@@ -54,10 +53,6 @@ const AppRoutes = createBrowserRouter([
       {
         path: "/register",
         element: <RegisterForm />,
-      },
-      {
-        path: "/register-2",
-        element: <RegisterView />,
       },
       {
         path: "/contact",
