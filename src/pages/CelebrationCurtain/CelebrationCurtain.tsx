@@ -81,7 +81,10 @@ const CelebrationCurtain = ({ children }) => {
       />
 
       {/* Section with Curtain Background */}
-      <section className="relative -top-[5px] z-[100] h-full w-full bg-[url('./Curtains.png')] bg-cover bg-no-repeat">
+      <section
+        style={{ backgroundImage: `url('/Curtains.png')` }}
+        className="relative -top-[5px] z-[100] h-full w-full bg-cover bg-no-repeat"
+      >
         {!isOpen && (
           <button
             onClick={triggerCurtain}
