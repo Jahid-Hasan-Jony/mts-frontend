@@ -6,7 +6,7 @@ import { FaUserCircle } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Breadcrumb from "../../components/common/breadcrumb";
+import Breadcrumb from "../../components/common/Breadcrumb";
 import Loading from "../../components/Loading/Loading";
 import { AuthContext } from "../../context/AuthProvider";
 import { useSocket } from "../../context/SocketContext";
