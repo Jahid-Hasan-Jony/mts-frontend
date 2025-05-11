@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import { FaEye, FaEyeSlash } from "react-icons/fa"; // Import the eye icons
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import Breadcrumb from "../../components/common/breadcrumb";
+import Breadcrumb from "../../components/common/Breadcrumb";
 import Loading from "../../components/Loading/Loading";
 import { AuthContext } from "../../context/AuthProvider";
 
